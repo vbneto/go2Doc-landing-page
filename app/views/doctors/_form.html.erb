@@ -1,0 +1,16 @@
+<//-- Form start -->
+<%= form_for(@doctor) do |f| %>
+
+  <% if @doctor.errors.any? %>
+    <div class="alert-message error">
+      <% @doctor.errors.full_messages.each do |msg| %>
+        - <%= msg %></br>
+      <% end %>
+    </div>
+  <% end %>
+
+    <%= f.text_field :email, :class => "xlarge", :placeholder => "E-mail" %>
+    <span class="help-block">Ex: dr.jose@clinica.com</span>
+    <%= f.submit "Cadastrar", :class => "btn info large"%>
+
+<% end %>

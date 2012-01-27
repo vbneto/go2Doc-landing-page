@@ -1,0 +1,7 @@
+class Home
+  include Mongoid::Document
+  field :email, :type => String
+
+  #validates_format_of :email, :with => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i, :if => Proc.new{|home| home.emaildoc.blank? }
+  validates_format_of :email, :with => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i
+end

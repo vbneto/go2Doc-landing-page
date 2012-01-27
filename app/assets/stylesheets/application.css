@@ -1,0 +1,116 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require twitter/bootstrap.css
+ *= require_tree .
+*/
+header nav ul {
+  list-style: none;
+  margin: 0 0 2em;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+}
+#flash_notice, #flash_alert {
+  padding: 5px 8px;
+  margin: 10px 0;
+}
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+#flash_alert {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+div#fixedMessage {
+  top: 50px;
+}
+
+div#statusContainer {
+  float: right;
+  top: 50px;
+}
+
+div#statusMessageContainer {
+ background-color: red;
+ color: white;
+ padding: 2px;
+ left: 0px;
+ font-weight: 700;
+}
+
+.homepage {
+  padding-top: 30px;
+}
+
+.content .internal {
+  min-height: 400px;
+}
+
+.well {
+  background-color: white !important;
+}
+
+div.topbar{
+  -moz-box-shadow: 4px 4px 2px #ccc;
+  -webkit-box-shadow: 4px 4px 2px #ccc;
+    box-shadow: 4px 4px 2px #ccc;
+	background-image: url("/assets/blank.png");
+}
+
+.topbar-inner, .topbar .fill {
+  background-color: white !important;
+}
+
+.topbar a:hover {
+  text-decoration: underline !important;
+}
+
+
+a.brand {color:#52665E !important; font-size: 30px !important;}
+a.brand span {color: #46ACCA;}
+
+footer {
+  height: 50px;
+  padding: 20px;
+  background-color: #339BB9;
+  color: white;
+}
+
+.inline {
+  display: inline-block;
+}
+
+footer #links{ float:right; margin-top:20px}
+footer #corp{float:left;  margin-left: 10px;}
+footer #corp p {padding:10px}
+
+footer ul li {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+footer ul a {
+  color: white;
+}
+
+footer ul a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.fLeft{float:left;}
+
+a.logo {
+  padding: 0px !important;
+  margin-right: 100px;
+}
+
+div.buttons {
+  float:right;
+}

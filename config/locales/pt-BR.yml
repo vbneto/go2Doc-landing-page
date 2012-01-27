@@ -1,0 +1,12 @@
+'pt-br':
+  mongoid:
+    errors:
+     models:
+      home:
+          attributes:
+            email_doc:
+              blank: "não pode ser vazio"
+              invalid: "inválido"
+            email_patient:
+              blank: "não pode ser vazio"
+              invalid: "inválido"

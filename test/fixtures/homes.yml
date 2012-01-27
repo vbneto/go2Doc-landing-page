@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  email_doc: MyString
+  email_patient: MyString
+
+two:
+  email_doc: MyString
+  email_patient: MyString
