@@ -56,6 +56,10 @@ div#statusMessageContainer {
   background-color: white !important;
 }
 
+.twitter-follow-button {
+  width: 100px !important;
+}
+
 div.topbar{
   -moz-box-shadow: 4px 4px 2px #ccc;
   -webkit-box-shadow: 4px 4px 2px #ccc;
