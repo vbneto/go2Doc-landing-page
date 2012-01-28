@@ -1,0 +1,102 @@
+2012-01-28T17:04:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/runner.rb:185:in `run_command'
+2012-01-28T17:04:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/controllers/controller.rb:181:in `load_rackup_config'
+2012-01-28T17:04:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/controllers/controller.rb:71:in `start'
+2012-01-28T17:04:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/rack/adapter/loader.rb:36:in `load'
+2012-01-28T17:04:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/runner.rb:151:in `run!'
+2012-01-28T17:04:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/bin/thin:19:in `load'
+2012-01-28T17:04:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/bin/thin:6:in `<top (required)>'
+2012-01-28T17:04:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/bin/thin:19:in `<main>'
+2012-01-28T17:04:39+00:00 heroku[web.1]: State changed from starting to crashed
+2012-01-28T17:04:40+00:00 heroku[web.1]: Process exited
+2012-01-28T17:15:04+00:00 heroku[web.1]: State changed from crashed to created
+2012-01-28T17:15:04+00:00 heroku[web.1]: State changed from created to starting
+2012-01-28T17:15:11+00:00 heroku[web.1]: Starting process with command `bundle exec thin start -R config.ru -e production -p 20326`
+2012-01-28T17:15:15+00:00 app[web.1]: disabling `magic` support. use 'gem install magic' to enable it
+2012-01-28T17:15:16+00:00 app[web.1]: /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:166:in `block in optional': undefined method `to_sym' for #<Syck::MergeKey:0x000000047fc110>
+ (NoMethodError)
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:165:in `each'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:165:in `inject'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:165:in `optional'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config.rb:108:in `tap'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config.rb:94:in `from_hash'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid.rb:147:in `load!'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:22:in `configure'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config.rb:273:in `configure_databases'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config.rb:109:in `block in load!'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:89:in `master'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/railtie.rb:65:in `block in <class:Railtie>'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/initializable.rb:30:in `instance_exec'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/initializable.rb:30:in `run'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/initializable.rb:55:in `block in run_initializers'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/initializable.rb:54:in `each'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/initializable.rb:54:in `run_initializers'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config.rb:108:in `load!'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/application.rb:96:in `initialize!'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/railtie/configurable.rb:30:in `method_missing'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from config.ru:3:in `require'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from config.ru:3:in `block in <main>'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/builder.rb:51:in `initialize'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from config.ru:1:in `new'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from config.ru:1:in `<main>'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/rack/adapter/loader.rb:36:in `eval'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/config/environment.rb:5:in `<top (required)>'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/builder.rb:51:in `instance_eval'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/rack/adapter/loader.rb:36:in `load'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/controllers/controller.rb:181:in `load_rackup_config'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/controllers/controller.rb:71:in `start'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/runner.rb:185:in `run_command'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/bin/thin:6:in `<top (required)>'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/bin/thin:19:in `load'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/bin/thin:19:in `<main>'
+2012-01-28T17:15:16+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/runner.rb:151:in `run!'
+2012-01-28T17:15:18+00:00 heroku[web.1]: Process exited
+2012-01-28T17:15:17+00:00 heroku[web.1]: State changed from starting to crashed
+2012-01-28T17:19:05+00:00 heroku[slugc]: Slug compilation started
+2012-01-28T17:19:32+00:00 heroku[api]: Deploy ecd903c by infra@go2doc.com.br
+2012-01-28T17:19:32+00:00 heroku[api]: Release v7 created by infra@go2doc.com.br
+2012-01-28T17:19:32+00:00 heroku[web.1]: State changed from crashed to created
+2012-01-28T17:19:33+00:00 heroku[web.1]: State changed from created to starting
+2012-01-28T17:19:33+00:00 heroku[slugc]: Slug compilation finished
+2012-01-28T17:19:39+00:00 heroku[web.1]: Starting process with command `bundle exec thin start -R config.ru -e production -p 17616`
+2012-01-28T17:19:42+00:00 app[web.1]: disabling `magic` support. use 'gem install magic' to enable it
+2012-01-28T17:19:43+00:00 app[web.1]: /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:166:in `block in optional': undefined method `to_sym' for #<Syck::MergeKey:0x00000003d562d8> (NoMethodError)
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:165:in `each'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:165:in `inject'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:165:in `optional'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:89:in `master'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config/database.rb:22:in `configure'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config.rb:273:in `configure_databases'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config.rb:108:in `tap'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config.rb:108:in `load!'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid.rb:147:in `load!'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/railtie.rb:65:in `block in <class:Railtie>'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/initializable.rb:30:in `instance_exec'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/initializable.rb:30:in `run'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/initializable.rb
+:55:in `block in run_initializers'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config.rb:109:in `block in load!'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/initializable.rb:54:in `run_initializers'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/mongoid-2.4.2/lib/mongoid/config.rb:94:in `from_hash'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/application.rb:96:in `initialize!'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/railtie/configurable.rb:30:in `method_missing'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.3/lib/rails/initializable.rb:54:in `each'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/config/environment.rb:5:in `<top (required)>'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from config.ru:3:in `require'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from config.ru:3:in `block in <main>'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/builder.rb:51:in `initialize'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from config.ru:1:in `new'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from config.ru:1:in `<main>'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/rack/adapter/loader.rb:36:in `eval'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/rack/adapter/loader.rb:36:in `load'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/controllers/controller.rb:181:in `load_rackup_config'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.6/lib/rack/builder.rb:51:in `instance_eval'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/runner.rb:151:in `run!'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/bin/thin:6:in `<top (required)>'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/bin/thin:19:in `load'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/bin/thin:19:in `<main>'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/runner.rb:185:in `run_command'
+2012-01-28T17:19:43+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/thin-1.3.1/lib/thin/controllers/controller.rb:71:in `start'
+2012-01-28T17:19:45+00:00 heroku[web.1]: State changed from starting to crashed
+2012-01-28T17:19:45+00:00 heroku[web.1]: Process exited
+2012-01-28T17:20:27+00:00 heroku[router]: Error H10 (App crashed) -> GET go2doclp.herokuapp.com/ dyno= queue= wait= service= status=503 bytes=
+2012-01-28T17:20:28+00:00 heroku[router]: Error H10 (App crashed) -> GET go2doclp.herokuapp.com/favicon.ico dyno= queue= wait= service= status=503 bytes=

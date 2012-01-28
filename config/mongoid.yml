@@ -8,7 +8,6 @@ test:
 
 # set these environment variables on your prod server
 production:
-  <<: *defaults
   uri:  mongodb://landingpage:123456@staff.mongohq.com:10050/app2666734
   #host: <%= ENV['MONGOID_HOST'] %>
   #port: <%= ENV['MONGOID_PORT'] %>
