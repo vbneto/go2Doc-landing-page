@@ -61,9 +61,7 @@ div#statusMessageContainer {
 }
 
 div.topbar{
-  -moz-box-shadow: 4px 4px 2px #e0d9d9;
-  -webkit-box-shadow: 4px 4px 2px #e0d9d9;
-    box-shadow: 4px 4px 2px #e0d9d9;
+    box-shadow: 6px 6px 8px #e0d9d9;
 	background-image: url("/assets/blank.png");
 }
 
