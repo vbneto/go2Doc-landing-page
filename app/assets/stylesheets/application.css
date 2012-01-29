@@ -61,7 +61,8 @@ div#statusMessageContainer {
 }
 
 div.topbar{
-    box-shadow: 6px 6px 8px #e0d9d9;
+  position: fixed;  
+  box-shadow: 6px 6px 8px #e0d9d9;
 	background-image: url("/assets/blank.png");
 }
 
@@ -78,8 +79,13 @@ a.brand {color:#52665E !important; font-size: 30px !important;}
 a.brand span {color: #46ACCA;}
 
 footer {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 50px;
-  padding: 20px;
+  padding: 33px;
   background-color: #339BB9;
   color: white;
 }
