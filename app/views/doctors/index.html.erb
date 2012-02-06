@@ -1,50 +1,30 @@
-<div class="container">
-  <br />
-
-  <div class="row">
-    <div class="span3">
-      <%= image_tag "perfil-go2doc.png" %>
-    </div>
-
-    <div class="span10 offset3">
-      <h4>Cadastre seu perfil</h4>
-      <br />
-      <p>Crie seu perfil com foto, informações acadêmicas, especialidades, 
-        publicações e experiência profissional, para que mais pacientes
-        possam te encontrar.</p>
-    </div>
-
-    </div>
- 
-   <div class="row">
-    <div class="span1">
-      <%= image_tag "consultorio-clinica.png" %>
-    </div>
-
-    <div class="span13 offset3">
-      <h4>Cadastre suas localidades de atendimento</h4>
-      <br />
-      <p>Esteja visível para os pacientes que procuram pela sua especialidade,
-        nas localidades onde você atende.</p>
-    </div>
-
-    </div>
+ <div class="homepage">
 
    <div class="row">
-    <div class="span3">
-      <%= image_tag "agenda-medico.png" %>
-    </div>
+     <div style="margin-left:867px" class="fb-like" data-href="http://www.facebook.com/pages/go2Doc/188721514549838" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+     <br/>
+     <br/>
+     <div style="margin-left:867px"><a href="https://twitter.com/go2docBR" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-show-screen-name="false">Siga @go2docBR</a></div>
+     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+   </div>
 
-    <div class="span10 offset3">
-      <h4>Customize sua agenda para cada localidade de atendimento</h4>
-      <br />
-      <p>Para cada local, determine os horários de atendimento, perfis de consulta 
-        e convênios atendidos. Sua agenda estará sempre organizada e muito 
-        mais requisitada!
-      </p>
-    </div>
-
-    </div>
-
- 
+     
+     <div class="row">
+  <div class="span3">
+    <%= image_tag "medico-dentista.png" %>
   </div>
+
+  <div class="span10 offset3">
+    <h3>O go2Doc é uma solução prática e inovadora para agendamento online de consultas de saúde.</h3>
+    <br />
+    <p>Pacientes podem encontrar médicos, dentistas, fisioterapeutas, nutricionistas e outros profissionais de saúde e agendar consultas diretamente via Internet, fácil e comodamente.<br /><br /> Para profissionais de saúde, além de uma prática ferramenta de gestão de agenda, o go2Doc permite a captação de fluxo adicional de pacientes que buscam, na Internet, informações sobre saúde, doenças, tratamentos e profissionais.</p>
+    <br />
+      
+        <%= render :partial => "form" %>
+
+  </div>
+</div>
+
+   </div>
+
+ </div>
