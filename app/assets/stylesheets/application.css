@@ -62,8 +62,8 @@ div#statusMessageContainer {
 
 div.topbar{
   position: fixed;  
-  box-shadow: 6px 6px 8px #e0d9d9;
-	background-image: url("/assets/blank.png");
+	background-image: url("/assets/blank_border.png");
+  height: 60px;
 }
 
 .topbar-inner, .topbar .fill {
