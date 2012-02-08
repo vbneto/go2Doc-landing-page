@@ -74,6 +74,9 @@ div.topbar{
   text-decoration: underline !important;
 }
 
+.topbar a {
+  background-color: transparent;
+}
 
 a.brand {color:#52665E !important; font-size: 30px !important;}
 a.brand span {color: #46ACCA;}
