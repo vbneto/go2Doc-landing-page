@@ -82,13 +82,12 @@ a.brand {color:#52665E !important; font-size: 30px !important;}
 a.brand span {color: #46ACCA;}
 
 footer {
-  position: absolute;
-  bottom: 0 !important;
   left: 0;
   right: 0;
   height: 50px;
-  padding: 33px;
+  padding: 30px;
   background-color: #339BB9;
+  margin-top: 90px !important;
   color: white;
 }
 
